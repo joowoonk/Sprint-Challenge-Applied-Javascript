@@ -18,31 +18,33 @@
   </div>
 */
 
-function makeThis (){
-  const topDiv = document.createElement("div"),
-        buttonDiv = document.createElement("div"),
-        imgOne = document.createElement("img"),
-        imgTwo = document.createElement("img"),
-        imgThree = document.createElement("img"),
-        imgFour = document.createElement("img"),
-        lastDiv = document.createElement("div");
+// function makeThis (){
+//   const topDiv = document.createElement("div"),
+//         buttonDiv = document.createElement("div"),
+//         imgOne = document.createElement("img"),
+//         imgTwo = document.createElement("img"),
+//         imgThree = document.createElement("img"),
+//         imgFour = document.createElement("img"),
+//         lastDiv = document.createElement("div");
 
   
-   topDiv.classList.add("carousel");
-   buttonDiv.classList.add("left-button");
-   imgOne.setAttribute("src","./assets/carousel/mountains.jpeg");
-   imgTwo.setAttribute("src","./assets/carousel/computer.jpeg");
-   imgThree.setAttribute("src","./assets/carousel/trees.jpeg");
-   imgFour.setAttribute("src","./assets/carousel/turntable.jpeg");
-   lastDiv.classList.add("right-button");
+//    topDiv.classList.add("carousel");
+//    buttonDiv.classList.add("left-button");
+//    imgOne.src = "./assets/carousel/mountains.jpeg";
+//    imgTwo.src = "./assets/carousel/computer.jpeg";
+//    imgThree.src = "./assets/carousel/trees.jpeg";
+//    imgFour.src = "./assets/carousel/turntable.jpeg";
+//    lastDiv.classList.add("right-button");
 
-   topDiv.append(buttonDiv, imgOne, imgTwo, imgThree, imgFour, lastDiv);
+//    topDiv.append(buttonDiv, imgOne, imgTwo, imgThree, imgFour, lastDiv);
 
-  return topDiv
-}
+//   return topDiv
+// }
 
-const youGotThis = document.querySelector('.header-container');
+// const youGotThis = document.querySelector('.carousel-container');
 
-  // menuItems.forEach(item =>{
-    // console.log(item)
-    youGotThis.appendChild(makeThis())
+//   // menuItems.forEach(item =>{
+//     // console.log(item)
+// youGotThis.append(makeThis())
+
+// // console.log(makeThis)
