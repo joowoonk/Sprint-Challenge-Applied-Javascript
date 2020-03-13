@@ -51,26 +51,26 @@ parentTagThree = document.querySelector(".cards-container")
 axios.get("https://lambda-times-backend.herokuapp.com/articles")
     .then(response => {
            let js = response.data.articles.javascript.forEach(each => {
-                console.log(each)
+                // console.log(each)
                 parentTagThree.append(cardHere(each)) 
             }) 
             let bs = response.data.articles.bootstrap.forEach(each => {
-                console.log(each)
+                // console.log(each)
                 parentTagThree.append(cardHere(each)) 
             })
             let tech = response.data.articles.technology.forEach(each => {
-                console.log(each)
+                // console.log(each)
                 parentTagThree.append(cardHere(each)) 
             })
             let jq = response.data.articles.jquery.forEach(each => {
-                console.log(each)
+                // console.log(each)
                 parentTagThree.append(cardHere(each)) 
             })
             let node = response.data.articles.node.forEach(each => {
-                console.log(each)
+                // console.log(each)
                 parentTagThree.append(cardHere(each)) 
             })
-            console.log(response);
+            // console.log(response);
             // console.log(js)
             
            
